@@ -1,0 +1,11 @@
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/GeneralPageResult.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/output/AckOutput.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/GeneralContentResult.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/customer/Dept.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/ack/SendToBinder.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/PageInfo.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/input/AckInput.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/output/MySource.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/GeneralResult.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/input/MyInput.java
+/Users/gemii/Documents/Work/Workspace/IdeaProjects/springcloud/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/message/StreamMessage.java

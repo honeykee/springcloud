@@ -1,0 +1,24 @@
+server:
+  port: 9010
+
+spring:
+  application:
+    name: stream-consumer-2
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+#          zk-nodes: localhost:2181
+          auto-create-topics: true
+      bindings:
+        input:
+          destination: stream-demo
+          group: group-1
+          consumer:
+            partitioned: true #开启分区,只想要springcloud-stream2模块接收到消息，
+        my-input: #接收消息中转站的消息
+          destination: stream-demo-trans
+        ack-inpput: # ack
+          destination: stream-ack-trans
+      instance-count: 2 #分区数量

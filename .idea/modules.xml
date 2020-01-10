@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/auth-server/auth-server.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/common-feign/common-feign.iml" filepath="$PROJECT_DIR$/common-feign/common-feign.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/common-pojo/common-pojo.iml" filepath="$PROJECT_DIR$/common-pojo/common-pojo.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/common-security/common-security.iml" filepath="$PROJECT_DIR$/common-security/common-security.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/config-client2/config-client2.iml" filepath="$PROJECT_DIR$/config-client2/config-client2.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-core/consumer-core.iml" filepath="$PROJECT_DIR$/consumer-core/consumer-core.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/provider-api/provider-api.iml" filepath="$PROJECT_DIR$/provider-api/provider-api.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/stream-consumer-1/stream-consumer-1.iml" filepath="$PROJECT_DIR$/stream-consumer-1/stream-consumer-1.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/stream-consumer-2/stream-consumer-2.iml" filepath="$PROJECT_DIR$/stream-consumer-2/stream-consumer-2.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/stream-producer/stream-producer.iml" filepath="$PROJECT_DIR$/stream-producer/stream-producer.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/test-example/test-example.iml" filepath="$PROJECT_DIR$/test-example/test-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-service/turbine-service.iml" filepath="$PROJECT_DIR$/turbine-service/turbine-service.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" group="springcloud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" group="springcloud and modules" />
+    </modules>
+  </component>
+</project>

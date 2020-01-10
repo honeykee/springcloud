@@ -1,0 +1,2474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/controller/ActivityController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/controller/ItemController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/controller/businessController/PurchaseController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/dto/ActivityItemSkuReqDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/dto/ItemDetailDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/dto/ItemReqDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/dto/ItemSkuReqDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/entity/ItItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/entity/ItItemSku.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/mapper/ItItemSkuMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/model/GeneralContentResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/model/GeneralMQMsg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/model/GeneralPagingResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/model/PageInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/model/PageResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/model/ResponseCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/model/Result.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/service/businessService/impl/ActivityBusinessServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/service/businessService/impl/ItemBusinessServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/service/clientService/impl/OrderClientServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/service/clientService/impl/PrizeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/service/impl/ItemServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/java/com/gemii/sackmall/web/utils/MyBatisCodeGengerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/resources/application-cloud.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Mall/liz-sackmall-web/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../baseplatform/liz-auth-server/src/main/java/com/gemii/lizcloud/baseplatform/authserver/component/CustomUnionIdAuthenticationProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../baseplatform/liz-edge-server/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-account-sys/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-basis-api/src/main/java/com/gemii/lizcloud/api/basis/controller/MaterialMgmtController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-security/src/main/java/com/gemii/lizcloud/common/clients/SecurityClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-security/src/main/java/com/gemii/lizcloud/common/service/CustomUserDetailsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/clients/GroupMgmtClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/clients/GroupMsgMgmtClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/clients/fallback/GroupMessageMgmtClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/clients/fallback/GroupMgmtClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/clients/fallback/GroupMsgMgmtClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/ResultUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmgmt/welcome/WelcomeMsg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmgmt/welcome/WelcomeMsgUnionCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/GroupMessageDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/GroupMsgSimpleItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/MomentItemResp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/MomentLikeUserDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/MomentReplyDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/MomentSimpleItemResp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/PageInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/groupmsg/ResultContent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMAltGroupMsgItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMGroupKeywordMsgCountItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMGroupMsgItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMIMMemKeywordMsgCountItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMMessageComplexItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMMessageComplexListItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMMessageListItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/GMMessageStramListItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/otd/groupmsg/PersonalMessageListItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/robot/LoginFailedReasonItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-common-utils/src/main/java/com/gemii/lizcloud/common/data/usermgmt/UserSetting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/clients/GroupBasePersonalClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/clients/hystrix/ImMemmgmtClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/controller/WelcomeMsgController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/service/GroupWelcomeMessageService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/service/RedisService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/service/impl/GroupActiveServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/service/impl/GroupWelcomeMessageServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/service/impl/RedisServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-group-mgmt/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-groupmsg-api/src/main/java/com/gemii/lizcloud/api/groupmsg/controller/GroupMessageController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-groupopr-mgmt/src/main/java/com/gemii/lizcloud/composite/group/opr/clients/GroupMsgMgmtClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-groupopr-mgmt/src/main/java/com/gemii/lizcloud/composite/group/opr/data/FriendUnreadMsgResp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-groupopr-mgmt/src/main/java/com/gemii/lizcloud/composite/group/opr/data/KeywordActionItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-payment-gateway/src/main/java/com/gemii/lizcloud/core/payment/gateway/config/properties/PayGateWayProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-payment-gateway/src/main/java/com/gemii/lizcloud/core/payment/gateway/controller/AlipayController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-payment-gateway/src/main/java/com/gemii/lizcloud/core/payment/gateway/service/impl/AlipayServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-robot-sys/src/main/java/com/gemii/lizcloud/sys/robot/clients/GroupMsgMgmtClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-robot-sys/src/main/java/com/gemii/lizcloud/sys/robot/config/RabbitMqConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-robot-sys/src/main/java/com/gemii/lizcloud/sys/robot/config/RobotMqHandlerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-robot-sys/src/main/java/com/gemii/lizcloud/sys/robot/constant/MqKeys.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-robot-sys/src/main/java/com/gemii/lizcloud/sys/robot/mq/handler/GroupNoticeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-robot-sys/src/main/java/com/gemii/lizcloud/sys/robot/mq/handler/LoginFailedReasonHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-robot-sys/src/main/java/com/gemii/lizcloud/sys/robot/service/impl/RobotCmdServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-room-script/generateQrCode/app.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/client/GroupMainCoreClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/client/GroupMsgCoreClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/client/hystrix/GroupMainCoreClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/client/hystrix/GroupMsgCoreClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/controller/MomentsV3Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/TMomentsItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/TMomentsSendRecord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/TMomentsTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/TMomentsUserMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/moment/MomentComment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/moment/MomentsItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/moment/MomentsSendRecord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/moment/MomentsTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/entity/moment/MomentsUserMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/mq/RabbitMQListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/mq/manager/MomentHandlerManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/repositories/MomentsSendRecordRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/repositories/MomentsUserMapRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/repositories/moment/MomentItemRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/service/MomentsV3Service.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/service/impl/AsyncMomentCommentExeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/service/impl/AsyncServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/service/impl/MomentsV3ServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/java/com/gemii/lizcloud/core/task/utils/MomentV3DataConvertUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-mgmt/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-sys/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-sys/src/main/java/com/gemii/lizcloud/composite/task/sys/clients/GroupMsgClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-sys/src/main/java/com/gemii/lizcloud/composite/task/sys/clients/RobotSysClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-sys/src/main/java/com/gemii/lizcloud/composite/task/sys/mq/RabbitMQListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-task-sys/src/main/java/com/gemii/lizcloud/composite/task/sys/service/impl/MomentsV3TaskServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-taskadmin-api/src/main/java/com/gemii/lizcloud/api/taskadmin/utils/JsonMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-userbase-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/config/RedisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-userbase-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/controller/UserSettingController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-userbase-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/UserSettingDtoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-userbase-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/domain/TTenantUserSetting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-userbase-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/repositories/UserSettingRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-userbase-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/service/impl/UserSettingServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/constants/WxUserConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/data/model/WxUserModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/data/model/WxUserRobotModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/service/MqManagementService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/service/ReceiveYMqInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/service/impl/WxUserRemoteServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/service/impl/WxUserServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-cloud/liz-wechat-personal/src/main/java/com/gemii/lizcloud/api/wechat/personal/service/impl/YAsyncCallbackServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/mq/MqRobotSysReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/service/impl/GroupActiveServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-group-mgmt/src/main/java/com/gemii/lizcloud/composite/group/service/impl/GroupPersonalServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-room-db/db_moment/moment_v3.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-room/liz-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../liz-room/liz-room/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/cloud-config/liz-customer-core-cloud.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/cloud-config/liz-customermain-api-cloud.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/cloud-config/liz-fissionactivity-api-cloud.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/cloud-config/task-mgmt-cloud.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/dev-config/liz-shortmsg-core-development.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-activitymain-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-activitymain-core/src/main/java/com/gemii/lizroom/activitymain/core/service/impl/RedisServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-auth-server/src/main/java/com/gemii/lizcloud/baseplatform/authserver/component/CustomUserIdAuthenticationProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-cloudcore-feign/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-cloudcore-feign/src/main/java/com/gemii/lizroom/cloudfeign/clients/CustomerClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-cloudcore-feign/src/main/java/com/gemii/lizroom/cloudfeign/clients/hystrix/CustomerClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-common-pojo/src/main/java/com/gemii/lizroom/pojo/data/groupmain/MomentLikeAndReplyCount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-common-pojo/src/main/java/com/gemii/lizroom/pojo/data/usermgmt/UserDetailsItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-common-pojo/src/main/java/com/gemii/lizroom/pojo/data/usermgmt/UserSetting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-common-security/liz-common-security.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-common-security/src/main/java/com/gemii/lizroom/security/config/OAuth2FeignConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-common-utils/src/main/java/com/gemii/lizroom/utils/JsonMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-customer-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/.gitlab-ci.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/docker/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/consumer/AddFriendEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/consumer/handler/AddFriendHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/consumer/handler/FriendMsgHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/consumer/model/FriendAdd/Body.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/consumer/utils/HandlerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/controller/ActivityController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/controller/ActivityNoAuthController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/controller/H5Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/controller/MongoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/dict/ActivityConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/entity/AtActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/entity/AtActivityItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/entity/AtActivityJoin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/entity/AtActivityWx.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/entity/AtActivityWxInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/exception.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/exception/ExceptionController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/fission/req/FissionActivityReq.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/fission/req/KeyWordAutoMsg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/fission/req/KeyWordAutoMsgVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/fission/req/PrizeAutoMsg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/fission/req/PrizeAutoMsgVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/fission/req/WelcomeMsg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/fission/resp/FissionActivityResp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/model/wechatpersonal/MsgBody.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/repository/AtActivityItemRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/repository/AtActivityJoinInviteRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/repository/AtActivityJoinRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/repository/AtActivityRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/repository/AtActivityWxInfoRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/repository/AtActivityWxRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/service/ActivityService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/service/impl/ActivityServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/service/impl/AsyncScheduleTaskServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/service/impl/MongoDbServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/java/com/gemii/lizroom/fissionactivity/api/utils/PrintPoster.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-fissionactivity-api/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-roomcore-feign/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-roomcore-feign/src/main/java/com/gemii/lizroom/roomcore/clients/CustomerClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-roomcore-feign/src/main/java/com/gemii/lizroom/roomcore/clients/GroupMainCoreClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-roomcore-feign/src/main/java/com/gemii/lizroom/roomcore/clients/hystrix/CustomerChannelClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-roomcore-feign/src/main/java/com/gemii/lizroom/roomcore/clients/hystrix/CustomerClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-roomcore-feign/src/main/java/com/gemii/lizroom/roomcore/clients/hystrix/GroupMainCoreClientFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-api/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/controller/MsgSendScheduleTaskController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/controller/SMSCallbackController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/entity/SmsTaskItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/mq/RabbitMsgReciver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/repository/SmsSendQueueRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/repository/SmsTaskItemRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/repository/SmsTaskParamRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/service/MsgSendScheduleTaskService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/service/SmsTaskDataSaveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/service/impl/AsyncShortMsgExeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/service/impl/MsgSendScheduleTaskServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/service/impl/SMSCallbackServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/service/impl/ShortMsgRechargeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/java/com/gemii/lizroom/shortmsg/core/service/impl/SmsTaskDataSaveServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-shortmsg-core/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/controller/TenantUserSettingController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/TenantUserSettingDtoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/domain/TTENANTUSERSETTING.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/domain/TTenantUserSetting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/repositories/TTENANTUSERSETTINGRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/data/repositories/TTenantUsetSettingRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/service/TenantUserSettingService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lizroom/liz-user-mgmt/src/main/java/com/gemii/lizcloud/core/usermgmt/service/impl/TenantUserSettingServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../moment-callback/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/workspace.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/AuthServerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/AuthenticationProviderConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/AuthorizationServerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/AuthorizationServerConfigurerAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/AuthorizationServerConfigurerAdapterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/OAuthSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/SecurityConfigBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/WebSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/config/WebSecurityConfigurerAdapterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/controller/AuthErrorController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/java/com/honeykee/auth/server/service/MyUserDetailService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth-server/src/test/java/com/honeykee/auth/server/BCryptPasswordTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/src/main/java/com/honeykee/common/feign/clients/ConsumerClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/src/main/java/com/honeykee/common/feign/clients/CustomerClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/src/main/java/com/honeykee/common/feign/clients/UserServiceClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/src/main/java/com/honeykee/common/feign/clients/fallback/ConsumerFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/src/main/java/com/honeykee/common/feign/clients/fallback/CustomerFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/src/main/java/com/honeykee/common/feign/clients/fallback/UserServiceFallback.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-feign/src/main/java/com/honeykee/feign/clients/CustomerClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/config/CommonDtoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/config/ModelMapperConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/customer/Dept.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/customer/WXUserLoginRecord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/GeneralContentResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/GeneralPageResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/GeneralResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/result/PageInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/ack/SendToBinder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/input/AckInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/input/MyInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/message.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/message/StreamMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/output/AckOutput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/output/MySource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/stream/source/MySource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/user/RoleItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/user/SystemCurrentUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-pojo/src/main/java/com/honeykee/common/pojo/module/user/UserPrincipal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/CommonSecurityApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/config/ResourceServerConfigurerAdapterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/config/WebSecurityConfigurerAdapterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/interceptor/OAuth2FeignInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/service/CommonUserDetailService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/service/CommonUserDetailsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/service/MyUserDetailService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/user/RoleItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/user/SystemCurrentUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/user/UserPrincipal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-security/src/main/java/com/honeykee/common/security/user/UserPrincipalC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/aop/AroundLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/aop/Monitor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/aop/annotation/AfterReturningLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/aop/annotation/AfterThrowingLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/aop/annotation/AroundLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/aop/annotation/BeforeLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/mapper/CommonDtoMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/mapper/JsonMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/mapper/ModelMapperConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/mapper/ModelMapperConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/mapper/ObjectMapperUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/result/ResultCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/result/ResultDesc.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common-utils/src/main/java/com/honeykee/common/utils/result/ResultUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/java/com/honeykee/config/client/ConfigClientApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/java/com/honeykee/config/client/config/SpringTaskConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/java/com/honeykee/config/client/controller/ConfigController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/java/com/honeykee/config/client/init/TaskApplicationRunner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/java/com/honeykee/config/client/listener/TaskListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/java/com/honeykee/config/client/ConfigClient2Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/java/com/honeykee/config/client/entity/BankCard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/java/com/honeykee/config/client/entity/BankUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/java/com/honeykee/config/client/repository/BankCardRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/java/com/honeykee/config/client/repository/BankUserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-client2/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-server/src/main/java/com/honeykee/config/server/ConfigServerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/ConsumerCoreApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/aop/AroundLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/aop/Monitor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/config/RegistHystrixStreamConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/config/ZipkinSenderConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/controller/TableAController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/controller/TaskController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/entity/TableAEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/entity/TableBEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/repository/TableARepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/repository/TableBRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/java/com/honeykee/consumer/service/TableAService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/consumer-core/src/test/java/com/honeykee/consumer/ComsumerApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/feign/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hystrix-dashboard/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/honeykee/dashboard/HystrixDashboardApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pojo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/provider-api.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/ProviderApiApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/config/MyFeignOauth2RequestInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/config/OAuth2ClientConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/config/RegistHystrixStreamConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/config/ResourceServerConfigurerAdapterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/config/ZipkinSenderConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/controller/ProviderController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/pojo/TestBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/pojo/TestBeanConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/pojo/WXUserLoginRecord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/java/com/honeykee/providerapi/service/ProviderService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/provider-api/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/server-eureka/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/server-eureka/src/main/java/com/honeykee/eureka/ServerEurekaApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/server-eureka/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud-config/application-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud-config/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud-config/config-client-dev.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud-config/config-client-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud-config/config-client.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud-config/stream-producer-dev.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud-config/stream-producer-test.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/springcloud.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/src/main/java/com/honeykee/stream/consumer/controller/ConsumerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/src/main/java/com/honeykee/stream/consumer/service/MyReceiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/src/main/java/com/honeykee/stream/consumer/service/ReceiveAndAckService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/src/main/java/com/honeykee/stream/consumer/service/ReceiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/src/main/java/com/honeykee/stream/consumer/service/RecieveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/src/main/java/com/honeykee/stream/consumer/service/TransFormService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-1/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-2/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-2/src/main/java/com/honeykee/stream/consumer/controller/ConsumerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-2/src/main/java/com/honeykee/stream/consumer/service/AckTransReceiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-2/src/main/java/com/honeykee/stream/consumer/service/MyReceiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-2/src/main/java/com/honeykee/stream/consumer/service/ReceiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-2/src/main/java/com/honeykee/stream/consumer/service/RecieveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-consumer-2/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-producer/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-producer/src/main/java/com/honeykee/stream/producer/StreamProducerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-producer/src/main/java/com/honeykee/stream/producer/controller/ProducerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-producer/src/main/java/com/honeykee/stream/producer/service/AckSendService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-producer/src/main/java/com/honeykee/stream/producer/service/SendService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stream-producer/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/TestExampleApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/aop/annotation/PersonAnnotation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/aop/aspect/PersonAspect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/aop/model/American.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/aop/model/CGLIBDynamicObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/aop/model/Chinese.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/aop/model/JDKDynamicObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/aop/model/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/controller/AopImplementController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/controller/TestHttpClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/controller/TestJson.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/controller/TestListPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/controller/TestListSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/controller/TestListStream.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/controller/TestStreamForeach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/model/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/TestHttpClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/TestJson.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/TestListDistinctByObjectProperty.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/TestListPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/TestListStream.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/TestStreamForeach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/image/TestDrawImage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/image/TestDrawImageAvatar.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/image/TestDrawImageWord.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/java/com/honeykee/test/example/test/image/TestDrawImageWxInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test-example/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/turbine-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/turbine-service/src/main/java/com/honeykee/turbine/service/TurbineServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/turbine-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/turbine-service/turbine-service.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/UserServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/config/WebSecurityConfigurerAdapterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/entity/Role.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/java/com/honeykee/user/service/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/user-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zipkin-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zipkin-server/src/main/java/com/honeykee/zipkin/server/ZipkinServerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zuul-gateway/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zuul-gateway/src/main/java/com/honeykee/zuul/gateway/ZuulGatewayApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zuul-gateway/src/main/java/com/honeykee/zuul/gateway/config/RegistHystrixStreamConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zuul-gateway/src/main/java/com/honeykee/zuul/gateway/config/WebSecurityConfigurerAdapterConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zuul-gateway/src/main/java/com/honeykee/zuul/gateway/config/ZipkinSenderConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/elastic/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/elastic/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/elastic/src/main/java/com/gemii/elastic/Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/elastic/src/main/java/com/gemii/elastic/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/elastic/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/microservicecloud/.idea/workspace.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/microservicecloud/microservicecloud-config-3344/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/microservicecloud/microservicecloud-consumer-hystrix-dashboard/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/microservicecloud/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/spring-cloud-examples-master/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/spring-cloud-examples-master/spring-cloud-task/spring-cloud-task-batch/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/spring-mybatis/src/main/java/com/example/springmybatis/config/MyWebMvcConfigurer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/spring-mybatis/src/main/java/com/example/springmybatis/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/spring-mybatis/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/springcloud-book/chapter14/service-auth/src/main/java/com/forezp/domain/Role.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/test-pom/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/test/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/test/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/README_zh_CN.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/run.txmanager.bat">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/tm.docker.build.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-common/src/main/java/com/codingapi/txlcn/common/util/ApplicationInformation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-tm/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-tm/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-tm/src/main/java/com/codingapi/txlcn/tm/config/TxManagerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-tm/src/main/java/com/codingapi/txlcn/tm/support/db/domain/TTxException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-tm/src/main/java/com/codingapi/txlcn/tm/support/db/domain/TxException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-tm/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MyProject/tx-lcn/txlcn-tm/target/classes/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../maven/repository/com/gemii/lizroom/liz-roomcore-feign/0.1.0/liz-roomcore-feign-0.1.0.jar!/com/gemii/lizroom/roomcore/clients/GroupMainCoreClient.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/18ea24bf-b955-4b9d-9f43-c6063e6a4c91/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/8ac64dcb-c38a-46a0-bfb8-0b6b613b7f2b/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

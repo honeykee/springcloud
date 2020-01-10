@@ -1,0 +1,38 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: stream-producer
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9093 #可以多个brokers
+#          zk-nodes: localhost:2181 #已经废除
+          auto-create-topics: true
+          auto-add-partitions: true
+      bindings:
+#        output:
+        myOutput: #参考MySource
+          destination: stream-demo
+          content-type: application/json
+          producer:
+            #分区的主键，根据什么来分区，下面的payload.id只是一个对象的id用于做为Key，用来说明的。希望不要误解
+            partitionKeyExpression: payload.id
+            #Key和分区数量进行取模去分配消息，这里分区数量配置为2
+            partitionCount: 2
+        ack-output: # ack
+          destination: stream-ack
+          content-type: text/plain
+#      binders: # rabbitmq方式
+#        my_rabbit:
+#          type: rabbit
+#          environment:
+#            spring:
+#              rabbitmq:
+#                host: localhost
+#                port: 5672
+#                username: guest
+#                password: guest
+#                virtual-host: /stream

@@ -1,0 +1,11 @@
+com/honeykee/common/pojo/module/result/GeneralResult.class
+com/honeykee/common/pojo/module/stream/input/MyInput.class
+com/honeykee/common/pojo/module/stream/output/AckOutput.class
+com/honeykee/common/pojo/module/stream/input/AckInput.class
+com/honeykee/common/pojo/module/result/PageInfo.class
+com/honeykee/common/pojo/module/stream/output/MySource.class
+com/honeykee/common/pojo/module/result/GeneralPageResult.class
+com/honeykee/common/pojo/module/stream/ack/SendToBinder.class
+com/honeykee/common/pojo/module/customer/Dept.class
+com/honeykee/common/pojo/module/result/GeneralContentResult.class
+com/honeykee/common/pojo/module/stream/message/StreamMessage.class

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-eureka" />
+        <module name="config-server" />
+        <module name="config-client" />
+        <module name="user-service" />
+        <module name="config-client2" />
+        <module name="stream-producer" />
+        <module name="auth-server" />
+        <module name="turbine-service" />
+        <module name="common-security" />
+        <module name="provider-api" />
+        <module name="test-example" />
+        <module name="stream-consumer-2" />
+        <module name="common-utils" />
+        <module name="common-pojo" />
+        <module name="hystrix-dashboard" />
+        <module name="zuul-gateway" />
+        <module name="stream-consumer-1" />
+        <module name="common-feign" />
+        <module name="consumer-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-server" target="1.8" />
+      <module name="common-feign" target="1.8" />
+      <module name="common-pojo" target="1.8" />
+      <module name="common-security" target="1.8" />
+      <module name="common-utils" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-client2" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="consumer-core" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="provider-api" target="1.8" />
+      <module name="server-eureka" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="stream-consumer-1" target="1.8" />
+      <module name="stream-consumer-2" target="1.8" />
+      <module name="stream-producer" target="1.8" />
+      <module name="test-example" target="1.8" />
+      <module name="turbine-service" target="1.8" />
+      <module name="user-service" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+      <module name="zuul-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-server" options="-parameters" />
+      <module name="common-feign" options="-parameters" />
+      <module name="common-pojo" options="-parameters" />
+      <module name="common-security" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-client2" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="consumer-core" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
+      <module name="provider-api" options="-parameters" />
+      <module name="server-eureka" options="-parameters" />
+      <module name="stream-consumer-1" options="-parameters" />
+      <module name="stream-consumer-2" options="-parameters" />
+      <module name="stream-producer" options="-parameters" />
+      <module name="test-example" options="-parameters" />
+      <module name="turbine-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
+      <module name="zuul-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

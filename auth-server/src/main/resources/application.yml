@@ -1,0 +1,43 @@
+server:
+  port: 1000
+  servlet:
+    context-path: /uaa
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+spring:
+  application:
+    name: auth-server
+#  security:
+#    user:
+#      name: admin
+#      password: admin
+#      roles:
+#        - USER
+#        - ADMIN
+
+#  thymeleaf:
+#    mode: 5
+#    encoding: UTF-8
+#    cache: false
+
+
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:1000/uaa/oauth/token
+#      grant-type: client_credentials,password,authorization_code
+      client-id: liz-service
+      client-secret: secret
+      user-authorization-uri: http://localhost:1000/uaa/oauth/authorize
+      # grant-type: client_credentials,password,implicit,authorization_code 四个只能配置一个！！！，其中authorization_code 在feign调用中获取token配置 @see org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeAccessTokenProvider.supportsResource
+      grant-type: client_credentials # auth-server这里配置client_credentials，因为 auth_server服务引用了common-security ,注册了OAuth2FeignRequestInterceptor用于feignclient调用其他服务添加请求的token，但是由于auth_server 服务是在请求token的时候是没有token的，所以通过client_credentials获取一个新token。
+      scope: server-scope,read,write
+      id: lizcloud # Id: 资源的 Id，它在 Spring 0Auth2 协议中 没有用到，用于客户端寻找资源 ， 不需要 做配置，默认即可 。
+      #      user-authorization-uri: http://localhost:1000/uaa/oauth/authorize #:如果用户需要授权访问资源， 则用户将被重定向到的认证 Uri。
+      resource-ids: lizcloud
+    resource:
+      token-info-uri: http://localhost:1000/uaa/oauth/check_token
+      user-info-uri: http://localhost:1000/uaa/user/current # 指定了 user-info-uri 的地址，用于 获取当前 Token 的用户信息
+

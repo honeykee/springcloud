@@ -1,0 +1,54 @@
+
+#spring:
+#  application:
+#    name: consumer-core
+#  zipkin:
+#    base-url: http://localhost:9411 #zinkin+mysql
+#  sleuth:
+#    sampler:
+#      probability: 1.0 #请求的采样率，在测试时为了方便查看可以改为1表示所有请求都记录，但在生产环境中还是建议改为0.1，否则数量太多影响性能
+
+spring:
+  jpa:
+    show-sql: true
+    database: MYSQL
+    hibernate:
+      ddl-auto: none
+      #      naming-strategy: org.hibernate.cfg.DefaultNamingStrategy
+      naming:
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    database-platform: org.hibernate.dialect.MySQLDialect
+  application:
+    name: consumer-core
+  zipkin:
+    base-url: http://localhost:19411  #zipkin+rabbitmq+es
+    sender:
+      type: rabbit   #kafka,rabbit,web
+  sleuth:
+    web:
+      client:
+        enabled: true  #默认为true
+    sampler:
+      probability: 1.0 #请求的采样率，在测试时为了方便查看可以改为1表示所有请求都记录，但在生产环境中还是建议改为0.1，否则数量太多影响性能
+#  rabbitmq:
+#    addresses: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+#    virtual-host: zipkin
+
+server:
+  port: 9001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+#    instance-id: customer-core-9001-hystrix
+    prefer-ip-address: true
+

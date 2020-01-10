@@ -1,0 +1,117 @@
+#
+#spring:
+#  profiles:
+#    active: dev
+#  application:
+#    name: qua
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.zaxxer.hikari.HikariDataSource
+#    url: jdbc:mysql:///lizm_shortmsg?characterEncoding=UTF-8&useSSL=true
+#    username: root
+#    password: mysql1234
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#      show-sql: true
+#    hikari:
+#      minimum-idle: 10
+#      maximum-pool-size: 30
+#      connection-test-query: SELECT 1 FROM DUAL
+#      connection-timeout: 30000
+#      idleTimeout: 600000
+#      maxLifetime: 1800000
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+#spring:
+#  application:
+#    name: provider-api
+#  zipkin:
+#    base-url: http://localhost:9411  # zipkin+mysql
+#  sleuth:
+#    sampler:
+#      probability: 1.0 #请求的采样率，在测试时为了方便查看可以改为1表示所有请求都记录，但在生产环境中还是建议改为0.1，否则数量太多影响性能
+
+spring:
+  application:
+    name: provider-api
+  zipkin:
+    base-url: http://localhost:19411  #zipkin+rabbitmq+es
+    sender:
+      type: rabbit   #kafka,rabbit,web
+  sleuth:
+    web:
+      client:
+        enabled: true  #默认为true
+    sampler:
+      probability: 1.0 #请求的采样率，在测试时为了方便查看可以改为1表示所有请求都记录，但在生产环境中还是建议改为0.1，否则数量太多影响性能
+#  rabbitmq:
+#    addresses: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+#    virtual-host: zipkin
+
+
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+#security:
+#  oauth2:
+#    client:
+#      client-id: zuul-server
+#      client-secret: secret
+#      access-token-uri: http://localhost:1000/uaa/oauth/token
+#      grant-type: client_credentials
+#    resource:
+#      token-info-uri: http://localhost:1000/uaa/oauth/check_token
+
+security:
+  oauth2:
+    client:
+      client-id: liz-service  # OAuth2 Client 的 Id，和之前 0Auth2 Provider 中配置的一一对应。
+      client-secret: secret
+      access-token-uri: http://localhost:1000/uaa/oauth/token
+      grant-type: authorization_code   # client_credentials,password,implicit,authorization_code 四个只能配置一个，其中authorization_code 在feign调用中获取token配置org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeAccessTokenProvider.supportsResource
+      scope: server-scope,read,write
+      id: lizcloud # Id: 资源的 Id，它在 Spring 0Auth2 协议中 没有用到，用于客户端寻找资源 ， 不需要 做配置，默认即可 。
+#      user-authorization-uri: http://localhost:1000/uaa/oauth/authorize #:如果用户需要授权访问资源， 则用户将被重定向到的认证 Uri。
+      resource-ids: lizcloud
+    resource:
+      token-info-uri: http://localhost:1000/uaa/oauth/check_token
+      user-info-uri: http://localhost:1000/uaa/user/current
+#      id: lizcloud
+#      service-id: lizcloud
+
+ribbon:
+  ConnectTimeout: 600000
+  ReadTimeout: 600000
+  eureka:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 6000000
+          semaphore:
+            maxConcurrentRequests: 100

@@ -1,0 +1,46 @@
+
+server:
+  port: 9010
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+spring:
+  application:
+    name: user-service
+#  security:
+#    user:
+#      name: admin
+#      password: admin
+#      roles:
+#        - USER
+  #        - ADMIN
+#  thymeleaf:
+#    mode: 5
+#    encoding: UTF-8
+#    cache: false
+
+
+#security:
+#  oauth2:
+#    client:
+#      accessTokenUri: http://localhost:1000/uaa/oauth/token
+#      userAuthorizationUri: http://localhost:1000/uaa/oauth/authorize
+#      clientId: zuul-server
+#      clientSecret: secret
+#    resource:
+#      userInfoUri: http://localhost:9000/user
+
+
+security:
+  oauth2:
+    client:
+      client-id: liz-service
+      client-secret: secret
+      access-token-uri: http://localhost:1000/uaa/oauth/token
+      grant-type: client_credentials,password
+    resource:
+      token-info-uri: http://localhost:1000/uaa/oauth/check_token
+      user-info-uri: http://localhost:1000/uaa/user/current
+

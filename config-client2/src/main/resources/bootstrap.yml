@@ -1,0 +1,37 @@
+spring:
+  cloud:
+    config:
+      name: config-client #从github上读取的资源名称，注意没有yml后缀名，不同环境的配置在同一个配置文件中，配合下面的profile区别
+      label: master
+      profile: test  #github资源的环境，优先级大于spring.profiles.active
+#      uri: http://localhost:8888 #可以用下面的discovery代替，uri可以指定多个config-server地址。下面只需要一个即可，前提是discovery需要把服务注册到Eureka
+      discovery: # 通过服务查找方式获取配置，和uri 二选一
+        enabled: true
+        service-id: config-server
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  application:
+    name: config-client2
+  profiles:
+    active: test  #不同环境不同配置文件，服务名称+环境后缀名称.yml  config-client-test.yml
+  rabbitmq:
+    virtual-host: bus
+    username: guest
+    password: guest
+    port: 5672
+    host: localhost
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
