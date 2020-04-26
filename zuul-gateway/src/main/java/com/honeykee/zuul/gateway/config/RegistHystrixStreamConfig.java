@@ -17,6 +17,7 @@ public class RegistHystrixStreamConfig {
 
     @Bean
     public ServletRegistrationBean registrationBean(){
+        System.out.println("---");
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
         ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
         registrationBean.setLoadOnStartup( 1 );

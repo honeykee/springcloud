@@ -2,11 +2,13 @@ package com.honeykee.test.example.controller;
 
 import com.honeykee.test.example.aop.model.*;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -16,6 +18,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @date 2019-12-18 11:19
  * @since JDK 1.8
  */
+
+@Api(value = "aoppp", tags = "tagsss")
 @Slf4j
 @Controller
 @RequestMapping(value="/aop")
@@ -27,8 +31,9 @@ public class AopImplementController {
     @Autowired
     private American american;
 
+    @ApiOperation( value = "zzzz")
     @ResponseBody
-    @RequestMapping(value="/talk")
+    @GetMapping(value="/talk")
     public String talk() {
         chinese.say("中国人说汉语");
         american.say("American say english");

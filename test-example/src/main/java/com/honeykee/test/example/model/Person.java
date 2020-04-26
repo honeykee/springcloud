@@ -1,5 +1,7 @@
 package com.honeykee.test.example.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,8 +16,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@ApiModel(value = "person-value", description = "descc")
 public class Person {
 
+    @ApiModelProperty(value = "age")
     private Integer age;
+
+    @ApiModelProperty(value = "name")
     private String name;
 }

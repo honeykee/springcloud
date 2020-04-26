@@ -22,6 +22,7 @@
         <module>auth-server</module>
         <module>common-security</module>
         <module>user-service</module>
+        <module>rabbitmq-consumer</module>
     </modules>
     <!--    <parent>-->
     <!--        <groupId>org.springframework.boot</groupId>-->
@@ -48,6 +49,13 @@
         <project.version>0.0.1-SNAPSHOT</project.version>
         <swagger.version>2.7.0</swagger.version>
         <skipTests>true</skipTests>
+
+
+        <kubeimage.version>0.0.1</kubeimage.version>
+        <docker.mvnhup>lizcloud-hub</docker.mvnhup>
+        <docker.registry>hub.docker.gemii.cc:7443/</docker.registry>
+        <docker.registry.url>https://hub.docker.gemii.cc:7443/</docker.registry.url>
+        <docker.image.prefix>testme</docker.image.prefix>
     </properties>
 
     <dependencyManagement>
@@ -201,34 +209,238 @@
     <!--    </dependencies>-->
     <!--    </dependencyManagement>-->
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
-    <!--    <build>-->
-    <!--        <finalName>springcloud</finalName>-->
-    <!--        <resources>-->
-    <!--            <resource>-->
-    <!--                <directory>src/main/resources</directory>-->
-    <!--                <filtering>true</filtering>-->
-    <!--              </resource>-->
-    <!--        </resources>-->
-    <!--        <plugins>-->
-    <!--          <plugin>-->
-    <!--            <groupId>org.apache.maven.plugins</groupId>-->
-    <!--            <artifactId>maven-resources-plugin</artifactId>-->
-    <!--            <configuration>-->
-    <!--              <delimiters>-->
-    <!--               <delimit>$</delimit>-->
-    <!--              </delimiters>-->
-    <!--            </configuration>-->
-    <!--          </plugin>-->
-    <!--        </plugins>-->
-    <!--     </build>-->
+<!--    <build>-->
+<!--        <finalName>springcloud</finalName>-->
+<!--        <resources>-->
+<!--            <resource>-->
+<!--                <directory>src/main/resources</directory>-->
+<!--                <filtering>true</filtering>-->
+<!--              </resource>-->
+<!--        </resources>-->
+<!--        <plugins>-->
+<!--          <plugin>-->
+<!--            <groupId>org.apache.maven.plugins</groupId>-->
+<!--            <artifactId>maven-resources-plugin</artifactId>-->
+<!--            <configuration>-->
+<!--              <delimiters>-->
+<!--               <delimit>$</delimit>-->
+<!--              </delimiters>-->
+<!--            </configuration>-->
+<!--          </plugin>-->
+<!--        </plugins>-->
+<!--     </build>-->
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>User Project Release</name>
+            <url>http://maven.gemii.cc:8081/repository/maven-releases/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>User Project SNAPSHOTS</name>
+            <url>http://maven.gemii.cc:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>central</name>
+            <url>http://maven.gemii.cc:8081/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repository.spring.release</id>
+            <name>Spring GA Repository</name>
+            <url>http://repo.spring.io/release</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>repository.spring.milestone</id>
+            <name>Spring Milestone Repository</name>
+            <url>http://repo.spring.io/milestone</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>repository.spring.snapshot</id>
+            <name>Spring Snapshot Repository</name>
+            <url>http://repo.spring.io/snapshot</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>central-repos2</id>
+            <name>Central Repository 2</name>
+            <url>http://repo1.maven.org/maven2/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>central-repos</id>
+            <name>Central Repository</name>
+            <url>http://repo.maven.apache.org/maven2</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+
+
+
+
+    <build>
+        <resources>
+            <!-- 控制资源文件的拷贝 -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+                <filtering>false</filtering>
+                <targetPath>${project.build.directory}/config</targetPath>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.yml</include>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*_cert.p12</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+        <pluginManagement>
+            <plugins>
+                <!-- 设置 SpringBoot 打包插件不包含任何 Jar 依赖包 -->
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <configuration>
+                        <includes>
+                            <include>
+                                <groupId>nothing</groupId>
+                                <artifactId>nothing</artifactId>
+                            </include>
+                        </includes>
+                    </configuration>
+                </plugin>
+                <!-- 设置应用 Main 参数启动依赖查找的地址指向外部 lib 文件夹 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <addClasspath>true</addClasspath>
+                                <classpathLayoutType>custom</classpathLayoutType>
+                                <classpathPrefix>lib/</classpathPrefix>
+                                <customClasspathLayout>$${artifact.artifactId}-$${artifact.version}$${dashClassifier?}.$${artifact.extension}</customClasspathLayout>
+                            </manifest>
+                        </archive>
+                    </configuration>
+                </plugin>
+                <!-- 设置将 lib 拷贝到应用 Jar 外面 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <id>copy-dependencies</id>
+                            <phase>prepare-package</phase>
+                            <goals>
+                                <goal>copy-dependencies</goal>
+                            </goals>
+                            <configuration>
+                                <outputDirectory>
+                                    ${project.build.directory}/lib
+                                </outputDirectory>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <groupId>com.spotify</groupId>
+                    <artifactId>docker-maven-plugin</artifactId>
+                    <version>0.4.13</version>
+                    <executions>
+                        <execution>
+                            <id>build-image</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>build</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>tag-image</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>tag</goal>
+                            </goals>
+                            <configuration>
+                                <image>${docker.image.prefix}/${project.artifactId}:${project.version}</image>
+                                <newName>${docker.registry}${docker.image.prefix}/${project.artifactId}:${kubeimage.version}</newName>
+                            </configuration>
+                        </execution>
+                        <execution>
+                            <id>push-image</id>
+                            <phase>install</phase>
+                            <goals>
+                                <goal>push</goal>
+                            </goals>
+                            <configuration>
+                                <imageName>${docker.registry}${docker.image.prefix}/${project.artifactId}:${kubeimage.version}</imageName>
+                            </configuration>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <serverId>${docker.mvnhup}</serverId>
+                        <registryUrl>${docker.registry.url}</registryUrl>
+                        <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
+                        <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+                        <forceTags>true</forceTags>
+                        <resources>
+                            <resource>
+                                <targetPath>/</targetPath>
+                                <directory>${project.build.directory}</directory>
+                                <include>${project.build.finalName}.jar</include>
+                            </resource>
+                            <resource>
+                                <targetPath>/</targetPath>
+                                <directory>${project.build.directory}</directory>
+                                <include>lib/*</include>
+                            </resource>
+                            <resource>
+                                <targetPath>/</targetPath>
+                                <directory>${project.build.directory}</directory>
+                                <include>config/*</include>
+                            </resource>
+                        </resources>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>

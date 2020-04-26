@@ -49,6 +49,10 @@ public class AuthorizationServerConfigurerAdapterConfig extends AuthorizationSer
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
+    @Bean
+    public ClientDetailsService clientDetails() {
+        return new JdbcClientDetailsService(dataSource);
+    }
 //    @Autowired
 //    private UserApprovalHandler userApprovalHandler;
 
@@ -152,10 +156,6 @@ public class AuthorizationServerConfigurerAdapterConfig extends AuthorizationSer
 //        oauthServer.tokenKeyAccess("isAnonymous() || hasAuthority('ROLE_TRUSTED_CLIENT')").checkTokenAccess("hasAuthority('ROLE_TRUSTED_CLIENT')");
     }
 
-    @Bean
-    public ClientDetailsService clientDetails() {
-        return new JdbcClientDetailsService(dataSource);
-    }
 
     /**
      * 配置 oauth_client_details【client_id和client_secret等】信息的认证【检查ClientDetails的合法性】服务

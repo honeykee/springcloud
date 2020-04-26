@@ -65,7 +65,7 @@ security:
       grant-type: client_credentials,password
     resource:
       token-info-uri: http://localhost:1000/uaa/oauth/check_token
-      user-info-uri: http://localhost:1000/uaa/user/current
+      user-info-uri: http://localhost:1000/uaa/user/currents
 #    resource:
 #      jwt:
 #        key-value: springcloud123 #使用对称加密方式，默认算法为HS256
