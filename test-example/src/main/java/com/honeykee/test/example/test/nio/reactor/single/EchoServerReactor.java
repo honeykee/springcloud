@@ -1,4 +1,4 @@
-package com.honeykee.test.example.test.nio.reactor;
+package com.honeykee.test.example.test.nio.reactor.single;
 
 import com.honeykee.test.example.test.nio.NioDictConstants;
 
@@ -9,7 +9,6 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
-import java.util.Set;
 
 /**
  * @author zhang chuan sheng

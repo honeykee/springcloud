@@ -61,7 +61,7 @@ public class EchoClient {
                             ByteBuffer buffer = ByteBuffer.allocate( NioDictConstants.BUFFER_SIZE );
 
                             Scanner scanner = new Scanner(System.in);
-                            System.out.print("请输入发送内容:");
+                            System.out.println( System.currentTimeMillis() + ",请输入发送内容:");
                             if (scanner.hasNext()) {
                                 SocketChannel socketChannel = (SocketChannel) sk.channel();
                                 String next = scanner.next();
